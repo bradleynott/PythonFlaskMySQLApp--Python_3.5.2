@@ -14,7 +14,7 @@ def showSignUp():
 	
 @app.route('/signUp',methods=['POST', 'GET'])
 def signUp():
-	conn = pymysql.connect(host='localhost', user='bnott', passwd='1932TBucket350!@#', db='BucketList')
+	conn = pymysql.connect(host='localhost', user='your_username', passwd='your_password', db='your_database_name')
 	cursor = conn.cursor()
 	try:
 	
